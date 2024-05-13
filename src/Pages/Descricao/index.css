@@ -1,0 +1,46 @@
+*{
+    border: green  1px solid;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cabecalho {
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 100px;
+    gap: 10px;
+    background-color: rgb(202, 172, 27);
+
+}
+.Cabecalho img {
+    width: 150px;
+    height: 100px;
+}
+.Texto {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    
+}
+
+.Main {
+    width: 1290px;
+    flex-direction: row;
+    gap: 50px;
+} 
+
+
+.Main img {
+    margin-left: 300px;
+    width: 300px;
+    background-color: blue;
+   
+}
+.Descri {
+    width: 400px;
+}
+

@@ -1,12 +1,13 @@
 
 
-import Login from "./Pages/Login"; 
+import Estoque from "./Pages/Estoque";
+
 
 
 
 function App() {
   return(
-    <Login/>
+    <Estoque/>
   )
 }
 
